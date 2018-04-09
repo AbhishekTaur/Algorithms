@@ -14,6 +14,14 @@ public class WeightedQuickUnion {
 		}
 	}
 	
+	public int[] getId() {
+		return id;
+	}
+
+	public void setId(int[] id) {
+		this.id = id;
+	}
+	
 	public int root(int i)
 	{
 		while (i != id[i]) i = id[i];

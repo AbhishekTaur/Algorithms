@@ -31,6 +31,7 @@ public class WeightedQuickUnionClient {
 		System.out.println("root of 3: " + wQU.root(3));
 		System.out.println("Size of tree with root 0: " + wQU.sizeOfTree(0));
 		System.out.println("Size of tree with root 3: " + wQU.sizeOfTree(3));
+		System.out.println("Get all id's: " + wQU.getId()[4]);
 	}
 
 }
